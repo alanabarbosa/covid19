@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing: border-box;
+}
+body{
+	background-image: url('../img/covid1.jpg');
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+
+.container{
+	min-width: 290px;
+	max-width: 100%;
+	margin: 15px 10px;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 5px;
+	background: rgb(0,0,0,0.50);
+}
+
+h1{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+h2{
+	color: darkblue;
+}
+
+h3{
+	margin: 10px 0;
+}
+
+#date{
+	color: #fff;
+}
+form input,
+form button{
+	width: 200px;
+	height: 35px;
+	border: 1px solid #ccc;
+	padding: 0 5px;
+	outline: none;
+	cursor: pointer;
+}
+form button{
+	background: #000;
+	border: none;
+	color: #fff;
+	width: 70px;
+}
+#name-country{
+	color: #fff;
+	margin-top: 20px;
+}
+.content{
+	margin: 10px 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	cursor: pointer;
+}
+.content .box{
+	min-width: 270px;
+	margin: 10px;
+	border: 1px solid #ccc;
+	padding-top: 15px;
+	letter-spacing: 2px;
+}
+.content .box:hover{
+	background-size: #ccc4;
+}
+.content .box p{
+	text-transform: uppercase;	
+	color: #fff;
+	font-weight: 600;
+}
+.confirmed h3,
+.confirmed i{
+	color: #DF0101;
+}
+.recovered h3,
+.recovered i{
+	color: green;
+}
+
+.deaths h3,
+.deaths i{
+color: #0101DF;
+}
+::-webkit-scrollbar{
+	display: none;
+}
+
+.footer a{
+text-decoration: none;
+color: #fff;
+}
